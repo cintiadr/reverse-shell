@@ -4,7 +4,6 @@ import socket, os, sys, subprocess
 
 
 def connect():
-    os.system('cls')
     global host
     global port
     global s

@@ -9,7 +9,7 @@ docker run -p 8888:8888 -it reverse-shell-server:latest
 ```
 
 
-To run the client:
+To run the client ('victim'):
 ```
 cd client/
 docker build . -t reverse-shell-client
